@@ -1,33 +1,52 @@
 /*----All Pages----*/
 
 :root {
-    --primary_color:;
+    --primary_color: rgba(233, 247, 129, 0.7);
     --secondary_color:;
 }
 
-body {
+* {
+    font-family: 'Baloo Da 2', cursive, sans-serif;
+}
+
+html, body {
     list-style: none;
     box-sizing: border-box;
-    margin: 0 3vw;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
 
+}
+
+main {
+    margin: 0 3vw;
 }
 
 /*-----Header------*/
 
 header {
     display: flex;
-    vertical-align: center;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--primary_color);
 }
+
+#burgerAlign {
+    display: flex;
+}
+
 #hamburger {
     background: transparent;
-    padding: 0;
+    padding: 0 2vw 0 2vw;
     border: 0;
 }
 
+h1 {
+    font-style: italic;
+}
+
 #logo {
-    width: 100px;
-    height: 108px;
-    top: 
+    width: 60px;
+    height: 85px;
+    padding: 2vw 2vw 0 0;
 }
