@@ -1,0 +1,33 @@
+/*----All Pages----*/
+
+:root {
+    --primary_color:;
+    --secondary_color:;
+}
+
+body {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0 3vw;
+
+}
+
+/*-----Header------*/
+
+header {
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#hamburger {
+    background: transparent;
+    padding: 0;
+    border: 0;
+}
+
+#logo {
+    width: 100px;
+    height: 108px;
+    top: 
+}
