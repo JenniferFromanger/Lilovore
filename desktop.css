@@ -24,8 +24,34 @@
         margin-right: 3vw;
         font-size: 18px;
     }
+
+    #deroulantBurger {
+        display: none;
+    }
     /*----carousel---*/
     #carousel {
         height: 85%;
+
     }
+
+    #carousel h2, #carousel p {
+        text-align: left;
+    
+    }
+
+    #carousel h2 {
+        font-size: 40px;
+    }
+
+    #carousel p {
+        font-size: 25px;
+    }
+
+    #bandeau {
+        height: 20%;
+        justify-content: center;
+    
+    }
+
+  
 }
