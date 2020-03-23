@@ -1,8 +1,8 @@
 /*----All Pages----*/
 
 :root {
-    --primary_color: rgba(233, 247, 129, 0.7);
-    --secondary_color:;
+    --primary_color: rgb(218, 185, 110);
+    --secondary_color: rgb(124, 187, 179) ;
 }
 
 * {
@@ -20,6 +20,19 @@ html, body {
 
 main {
     margin: 0 3vw;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--secondary_color);
 }
 
 /*-----Header------*/
@@ -43,10 +56,27 @@ header {
 
 h1 {
     font-style: italic;
+    text-shadow: 1px 2px var(--secondary_color);
+}
+
+#navDesk {
+    display: none;
 }
 
 #logo {
     width: 60px;
     height: 85px;
-    padding: 2vw 2vw 0 0;
+    padding: 1vw 2vw 0 0;
 }
+
+/*-----carousel-----*/
+#carousel {
+    display: flex;
+    background: url(images/lillegp.jpg);
+    width: 100%;
+    height: 45%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: cover;
+}
+
