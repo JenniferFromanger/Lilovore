@@ -176,3 +176,28 @@ h1 {
     margin: 0;
     text-align: center;
 }
+
+.envie img {
+    width: 150px;
+    height: 100px;    
+}
+
+.envie:hover {
+    opacity: 0.6;
+    transform: translateY(-3px);
+}
+
+/*-------footer-------*/
+
+footer {
+    background: var(--primary_color);
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    display: none;
+}
+
+
