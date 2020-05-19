@@ -1,0 +1,87 @@
+@media screen and (min-width: 1260px) {
+  /*-----Header----*/
+  #hamburger {
+    display: none;
+  }
+
+  h1 {
+    margin-left: 2vw;
+  }
+
+  #navDesk {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+  }
+
+  #navDesk ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  #navDesk li {
+    margin-right: 3vw;
+    font-size: 18px;
+  }
+
+  #deroulantBurger {
+    display: none;
+  }
+  /*----carousel---*/
+  #carousel {
+    height: 85%;
+  }
+
+  #carousel h2,
+  #carousel p {
+    text-align: left;
+  }
+
+  #carousel h2 {
+    font-size: 40px;
+  }
+
+  #carousel p {
+    font-size: 25px;
+  }
+
+  #bandeau {
+    height: 20%;
+    justify-content: center;
+  }
+
+  /*-------Main-------*/
+
+  #listEnvies h2 {
+    font-size: 30px;
+    background: url(images/logo.png) no-repeat left;
+    width: 25%;
+  }
+
+  .envie {
+    width: 600px;
+  }
+
+  .envie img {
+    width: 600px;
+    height: 400px;
+  }
+
+  /*------Footer----*/
+
+  footer h2 {
+    font-style: italic;
+    text-shadow: 1px 2px var(--secondary_color);
+  }
+
+  footer p,
+  footer h2 {
+    display: flex;
+    font-size: 18px;
+  }
+
+  footer img {
+    display: none;
+  }
+}
